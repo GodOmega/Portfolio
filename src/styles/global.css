@@ -5,3 +5,10 @@
     --active_fonts: rgba(255, 255, 255, 1);
     --inactive_elements: rgba(165, 165, 165, 1);
 }
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after, h1, h2, h3, h4, h5, h6, a, p {
+    box-sizing: inherit;
+    margin: 0
+}
