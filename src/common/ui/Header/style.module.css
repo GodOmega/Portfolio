@@ -1,0 +1,16 @@
+.header {
+    position: relative;
+    height: 100vh;
+    padding: 62px 0 0;
+}
+
+.withBackground {
+    background-color: var(--blue_background);
+}
+
+.withCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

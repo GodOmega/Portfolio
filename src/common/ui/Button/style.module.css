@@ -1,0 +1,9 @@
+.button {
+    width: 173px;
+    height: 45px;
+    background-color: var(--red_actions);
+    color: var(--active_fonts);
+    font-weight: bold;
+    border-radius: 22px;
+    border: none;
+}
