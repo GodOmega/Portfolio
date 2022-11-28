@@ -1,0 +1,7 @@
+:root {
+    --blue_background: rgba(11, 8, 82, 1);
+    --blue_background_soft: rgba(16, 12, 99, 1);
+    --red_actions: rgba(214, 40, 40, 1);
+    --active_fonts: rgba(255, 255, 255, 1);
+    --inactive_elements: rgba(165, 165, 165, 1);
+}
