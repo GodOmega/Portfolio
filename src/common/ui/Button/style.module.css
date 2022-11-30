@@ -5,5 +5,13 @@
     color: var(--active_fonts);
     font-weight: bold;
     border-radius: 22px;
+    padding: 0rem;
     border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 18px;
+    }
 }
