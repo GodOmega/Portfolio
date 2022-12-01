@@ -1,0 +1,45 @@
+.tabs__container {
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid rgba(118, 118, 118, .39);
+    margin: 0 auto 2rem;
+    padding: 0 0 .4rem;
+}
+
+.tabs__container input {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    color: var(--active_fonts);
+}
+
+.buttons label {
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.underline {
+    position: absolute;
+    width: calc(100% / 3);
+    height: 2px;
+    left: 0;
+    top: 100%;
+    background-color: var(--red_actions);
+    transition: .2s;
+}
+
+
+.tabs__container input:nth-child(1):checked ~ .underline {
+    translate: 0 0;
+}
+
+.tabs__container input:nth-child(2):checked ~ .underline {
+    translate: calc(100% * 1) 0;
+}
+
+.tabs__container input:nth-child(3):checked ~ .underline {
+    translate: calc(100% * 2) 0;
+}
