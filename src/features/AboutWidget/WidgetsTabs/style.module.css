@@ -1,6 +1,7 @@
 .tabs__container {
     position: relative;
     width: 100%;
+    max-width: 500px;
     border-bottom: 2px solid rgba(118, 118, 118, .39);
     margin: 0 auto 2rem;
     padding: 0 0 .4rem;
@@ -12,7 +13,7 @@
 
 .buttons {
     display: flex;
-    color: var(--active_fonts);
+    color: var(--inactive_elements);
 }
 
 .buttons label {
@@ -31,7 +32,19 @@
     transition: .2s;
 }
 
+/* 
+    ACTIVE MENU OPTIONS
+*/
+.tabs__container input:nth-child(1):checked ~ .buttons label:first-child,
+.tabs__container input:nth-child(2):checked ~ .buttons label:nth-child(2),
+.tabs__container input:nth-child(3):checked ~ .buttons label:last-child
+{
+    color: var(--active_fonts);
+}
 
+/* 
+    MOVE UNDERLINE BY OPTION SELECTED
+*/
 .tabs__container input:nth-child(1):checked ~ .underline {
     translate: 0 0;
 }
