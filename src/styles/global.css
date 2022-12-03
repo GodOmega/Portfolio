@@ -12,3 +12,6 @@ html {
     box-sizing: inherit;
     margin: 0
 }
+
+@media (min-width: 1100px) {
+}

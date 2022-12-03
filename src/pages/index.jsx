@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import styles from "../styles/pages/home.module.css";
 
@@ -10,7 +11,11 @@ import WidgetsContainer from "../features/AboutWidget/WidgetsContainer";
 import WidgetsTabs from "../features/AboutWidget/WidgetsTabs";
 import AboutWidget from "../features/AboutWidget/AboutWidget";
 import SkillsWidget from "../features/AboutWidget/SkillsWidget";
+
 import Contact from "../features/Contact";
+
+import SliderContainer from "../features/Slider/SliderContainer";
+import SliderItem from "../features/Slider/SliderItem";
 const index = () => {
   return (
     <>
@@ -25,7 +30,11 @@ const index = () => {
               I'm a backend developer with specialized experience with JS and
               Node.js enviroments
             </p>
-            <Button>Read more</Button>
+            <Button>
+              <Link to="about" smooth={true} duration={500}>
+                Read more
+              </Link>
+            </Button>
           </>
         )}
       </Header>
@@ -39,10 +48,23 @@ const index = () => {
 
                 {selectedView === "skills" && <SkillsWidget />}
 
-                {selectedView === "contact" && <Contact/>}
+                {selectedView === "contact" && <Contact />}
               </>
             )}
           </WidgetsContainer>
+        </section>
+
+        <section name="portfolio" className={styles.portfolio__section}>
+          <h2 className={styles.home__title}>Portfolio</h2>
+          <SliderContainer>
+            <SliderItem image="https://raw.githubusercontent.com/GodOmega/OmegaDev/master/img/classicar-1.png" />
+            <SliderItem image="https://raw.githubusercontent.com/GodOmega/OmegaDev/master/img/ceaca.png" />
+          </SliderContainer>
+          <p className={styles.portfolio__subtitle}>
+            Discover some of my projects, which are based on various business
+            models and represent different ways of applying a solution to a
+            problem.
+          </p>
         </section>
       </main>
     </>
