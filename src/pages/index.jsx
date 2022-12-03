@@ -8,7 +8,9 @@ import Button from "../common/ui/Button";
 
 import WidgetsContainer from "../features/AboutWidget/WidgetsContainer";
 import WidgetsTabs from "../features/AboutWidget/WidgetsTabs";
-
+import AboutWidget from "../features/AboutWidget/AboutWidget";
+import SkillsWidget from "../features/AboutWidget/SkillsWidget";
+import Contact from "../features/Contact";
 const index = () => {
   return (
     <>
@@ -33,11 +35,11 @@ const index = () => {
             {({ changeView, selectedView }) => (
               <>
                 <WidgetsTabs changeView={changeView} />
-                {selectedView === "about" && <h1>uno</h1>}
+                {selectedView === "about" && <AboutWidget />}
 
-                {selectedView === "skills" && <h1>dos</h1>}
+                {selectedView === "skills" && <SkillsWidget />}
 
-                {selectedView === "contact" && <h1>tres</h1>}
+                {selectedView === "contact" && <Contact/>}
               </>
             )}
           </WidgetsContainer>

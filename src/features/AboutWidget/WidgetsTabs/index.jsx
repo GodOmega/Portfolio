@@ -5,7 +5,7 @@ import styles from "./style.module.css";
 const WidgetsTabs = ({ changeView }) => {
   return (
     <div className={styles.tabs__container}>
-      <input id="tab-1" type="radio" name="group" />
+      <input id="tab-1" defaultChecked type="radio" name="group" />
       <input id="tab-2" type="radio" name="group" />
       <input id="tab-3" type="radio" name="group" />
       <div className={styles.buttons}>
