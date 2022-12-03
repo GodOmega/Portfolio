@@ -51,7 +51,6 @@
 .portfolio__section > div {
     aspect-ratio: 16 / 9;
     max-width: 1050px;
-    cursor: pointer;
 }
 
 .portfolio__subtitle {
