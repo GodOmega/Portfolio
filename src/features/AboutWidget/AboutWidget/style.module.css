@@ -62,4 +62,8 @@
         width: 100%;
         order: 2;
     }
+
+    .about__container p {
+        line-height: 1.6rem;
+    }
 }

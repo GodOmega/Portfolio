@@ -30,7 +30,7 @@ const index = () => {
         )}
       </Header>
       <main>
-        <section className={styles.about__section}>
+        <section name="about" className={styles.about__section}>
           <WidgetsContainer>
             {({ changeView, selectedView }) => (
               <>
