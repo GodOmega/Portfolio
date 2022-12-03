@@ -22,7 +22,7 @@ const Contact = () => {
       </Link>
 
       <Link
-        href="/"
+        href="https://github.com/GodOmega"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.contact__item}
