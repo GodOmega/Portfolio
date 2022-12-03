@@ -9,8 +9,8 @@
 .contact__item {
     position: relative;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 428px;
     height: 36px;
@@ -22,14 +22,14 @@
 }
 
 .contact__item p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
     color: var(--active_fonts);
 }
 
 .contact__item img {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    translate: 0 -50%;
     width: 21px;
 }
 
