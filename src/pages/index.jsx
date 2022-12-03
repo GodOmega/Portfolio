@@ -66,6 +66,13 @@ const index = () => {
             problem.
           </p>
         </section>
+
+        <footer name="contact" className={styles.footer}>
+          <h2 className={styles.home__title}>Contact</h2>
+          <div>
+            <Contact />
+          </div>
+        </footer>
       </main>
     </>
   );
