@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import styles from "./style.module.css";
 import skills from "./skillsElements";
@@ -12,7 +13,14 @@ const SkillsWidget = () => {
         <ul>
           {hardSkills.map(({ iconUrl, name }, index) => (
             <li key={index}>
-              <img src={iconUrl} alt="" />
+              <picture>
+                <Image
+                  src={iconUrl}
+                  sizes="(max-width: 100vw)"
+                  fill
+                  alt={`${name} Icon`}
+                />
+              </picture>
               <p>{name}</p>
             </li>
           ))}
@@ -23,7 +31,14 @@ const SkillsWidget = () => {
         <ul>
           {softSkills.map(({ iconUrl, name }, index) => (
             <li key={index}>
-              <img src={iconUrl} alt="" />
+              <picture>
+                <Image
+                  src={iconUrl}
+                  sizes="(max-width: 100vw)"
+                  fill
+                  alt={`${name} Icon`}
+                />
+              </picture>
               <p>{name}</p>
             </li>
           ))}

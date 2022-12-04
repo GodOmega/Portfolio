@@ -40,7 +40,8 @@
     font-size: 9.6px;
 }
 
-.skills__container img {
+.skills__container picture {
+    position: relative;
     width: 40px;
     height: 40px;
     margin-bottom: .6rem;
@@ -55,7 +56,7 @@
         margin-bottom: 2rem;
     }
 
-    .skills__container img {
+    .skills__container picture {
         width: 48px;
         height: 48px;
     }
