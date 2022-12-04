@@ -56,17 +56,17 @@ const index = () => {
 
         <section name="portfolio" className={styles.portfolio__section}>
           <h2 className={styles.home__title}>Portfolio</h2>
+          <p className={styles.portfolio__subtitle}>
+            Discover some of my projects, which are based on various business
+            models and represent different ways of applying a solution to a
+            problem.
+          </p>
           <SliderContainer>
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1670104924/portfolio/colfax_kjerjg.webp" />
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1670104906/portfolio/classicar_is3pss.webp" />
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1670105435/portfolio/disney_k773tm.webp" />
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1670104888/portfolio/ceaca_rgwyxi.webp" />
           </SliderContainer>
-          <p className={styles.portfolio__subtitle}>
-            Discover some of my projects, which are based on various business
-            models and represent different ways of applying a solution to a
-            problem.
-          </p>
         </section>
 
         <footer name="contact" className={styles.footer}>

@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        aspect-ratio: initial;
+        height: 400px;
+    }
+}
+
