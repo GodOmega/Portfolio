@@ -7,7 +7,7 @@ const SliderItem = ({image}) => {
 
   return (
     <div className={styles.container}>
-        <Image src={image} fill alt="" />
+        <Image src={image} fill alt="Proyect Image" />
     </div>
   )
 }
