@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import Head from "next/head";
 
 import styles from "../styles/pages/home.module.css";
 
@@ -19,6 +20,26 @@ import SliderItem from "../features/Slider/SliderItem";
 const index = () => {
   return (
     <>
+      <Head>
+        <title>Andres Gazui | Portfolio</title>
+        <meta property="author" content="Andres Gazui" />
+        <meta
+          name="description"
+          content="Backend developer with experience in Javascript and Nodejs enviroments"
+        />
+        <meta property="robots" content="all" />
+        <meta
+          name="keywords"
+          content="backend, developer, nodejs, javascript"
+        />
+        <meta property="og:title" content="Andres Gazui - Backend developer" />
+        <meta
+          property="og:description"
+          content=" Hello there!, my name is Andres Gazui and I am a backend developer with many years of experience and I'm passionate about
+          technology and  a constant learning"
+        />
+        <link rel="canonical" href="https://andresgazui.com" />
+      </Head>
       <Header center={true} background={true}>
         {() => (
           <>
