@@ -1,10 +1,17 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 import styles from "./style.module.css";
 
 const AboutWidget = () => {
   return (
-    <article className={styles.about__container}>
+    <motion.article
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        transition: 0.6,
+      }}
+      className={styles.about__container}
+    >
       <img src="/images/about_image.svg" alt="" />
       <p>
         Hello there!, my name is Andres Gazui and I am passionate about
@@ -16,7 +23,7 @@ const AboutWidget = () => {
         an incredible team in the development of high impact projects in the
         technology field.
       </p>
-    </article>
+    </motion.article>
   );
 };
 

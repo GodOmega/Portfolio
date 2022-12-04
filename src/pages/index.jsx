@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Head from "next/head";
+import { AnimatePresence } from "framer-motion";
 
 import styles from "../styles/pages/home.module.css";
 
@@ -63,14 +64,14 @@ const index = () => {
         <section name="about" className={styles.about__section}>
           <WidgetsContainer>
             {({ changeView, selectedView }) => (
-              <>
+              <AnimatePresence>
                 <WidgetsTabs changeView={changeView} />
                 {selectedView === "about" && <AboutWidget />}
 
                 {selectedView === "skills" && <SkillsWidget />}
 
                 {selectedView === "contact" && <Contact />}
-              </>
+              </AnimatePresence>
             )}
           </WidgetsContainer>
         </section>

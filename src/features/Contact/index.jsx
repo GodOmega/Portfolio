@@ -1,11 +1,19 @@
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import styles from "./style.module.css";
 
 const Contact = () => {
   return (
-    <article className={styles.contact__container}>
+    <motion.article
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        transition: 0.6,
+      }}
+      className={styles.contact__container}
+    >
       <div className={styles.contact__item}>
         <img src="/icons/email.svg" alt="Email Icon" />
         <p>gazuiandres@gmail.com</p>
@@ -40,7 +48,7 @@ const Contact = () => {
         <img src="/icons/platzi.svg" alt="Platzi Icon" />
         <p>Platzi</p>
       </Link>
-    </article>
+    </motion.article>
   );
 };
 
