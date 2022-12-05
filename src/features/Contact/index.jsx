@@ -10,7 +10,8 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{
-        transition: 0.6,
+        transition: 0.9,
+        delay: 0.3
       }}
       className={styles.contact__container}
     >

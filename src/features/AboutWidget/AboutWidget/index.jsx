@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 import styles from "./style.module.css";
 
 const AboutWidget = () => {
@@ -8,7 +9,8 @@ const AboutWidget = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{
-        transition: 0.6,
+        transition: 1.2,
+        delay: 0.3
       }}
       className={styles.about__container}
     >

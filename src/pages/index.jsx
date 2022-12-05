@@ -37,7 +37,7 @@ const index = () => {
         <meta
           property="og:description"
           content=" Hello there!, my name is Andres Gazui and I am a backend developer with many years of experience and I'm passionate about
-          technology and  a constant learning"
+          technology and constant learning"
         />
         <link rel="canonical" href="https://andresgazui.com" />
       </Head>
