@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 
-import styles from './style.module.css'
+import styles from "./style.module.css";
 
-const SliderItem = ({image}) => {
-
+const SliderItem = ({ image }) => {
   return (
     <div className={styles.container}>
-        <Image src={image} fill alt="Proyect Image" />
+      <Image priority={true} src={image} fill alt="Proyect Image" />
     </div>
-  )
-}
+  );
+};
 
-export default SliderItem
+export default SliderItem;
