@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { Roboto } from "@next/font/google";
 import "normalize.css/normalize.css";
 import "../styles/global.css";
@@ -19,6 +20,7 @@ export default function MyApp({ Component, pageProps }) {
         `}
       </style>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
