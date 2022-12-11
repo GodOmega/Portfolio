@@ -15,10 +15,11 @@ const Contact = () => {
       }}
       className={styles.contact__container}
     >
-      <div className={styles.contact__item}>
+      {/* SOON */}
+      {/* <div className={styles.contact__item}>
         <img src="/icons/email.svg" alt="Email Icon" />
-        <p>gazuiandres@gmail.com</p>
-      </div>
+        <p></p>
+      </div> */}
 
       <Link
         href="https://www.linkedin.com/in/omegadev/"
