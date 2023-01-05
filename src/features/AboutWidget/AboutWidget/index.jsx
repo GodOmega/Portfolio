@@ -14,7 +14,7 @@ const AboutWidget = () => {
       }}
       className={styles.about__container}
     >
-      <img src="/images/about_image.svg" alt="" />
+      <img src="/images/about_image.svg" alt="About Image" />
       <p>
         Hello there!, my name is Andres Gazui and I am passionate about
         technology, constant learning and solutions that have a positive impact.

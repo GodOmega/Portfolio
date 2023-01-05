@@ -13,8 +13,8 @@
 
 .about__container p {
     text-align: center;
-    font-size: 10.5px;
-    line-height: .97rem;
+    font-size: 13px;
+    line-height: 1.2rem;
     color: var(--active_fonts);
 }
 
