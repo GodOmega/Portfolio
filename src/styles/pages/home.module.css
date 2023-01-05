@@ -37,8 +37,6 @@
 }
 
 .portfolio__section {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     padding: 2rem 0;
     background-color: var(--blue_background);
@@ -50,9 +48,11 @@
     height: 100%;
 } */
 
+.ctaContainer {
+    text-align: center;
+}
 
 .portfolio__button_cta {
-    align-self: center;
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -64,7 +64,7 @@
 
 .portfolio__section > div {
     max-width: 850px;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .footer {
@@ -129,8 +129,7 @@
 
     .portfolio__section > div {
         margin: 0 auto;
-        margin-bottom: 5rem;
-    
+        margin-bottom: 7rem;
     }
 }
 

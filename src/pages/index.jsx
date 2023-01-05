@@ -89,14 +89,16 @@ const index = () => {
             Discover more of my projects, which are based on different ways of applying a solution to a
             problem 
           </p> */}
-          <a
-            className={styles.portfolio__button_cta}
-            href="https://www.linkedin.com/in/omegadev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Discover more projects
-          </a>
+          <div className={styles.ctaContainer}>
+            <a
+              className={styles.portfolio__button_cta}
+              href="https://github.com/GodOmega"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Discover more projects
+            </a>
+          </div>
         </section>
 
         <footer name="contact" className={styles.footer}>
