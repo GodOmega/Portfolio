@@ -22,12 +22,9 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Andres Gazui | Portfolio</title>
+        <title>Andres Gazui | Backend Developer</title>
         <meta property="author" content="Andres Gazui" />
-        <meta
-          name="description"
-          content="Backend developer with experience in Javascript and Nodejs enviroments"
-        />
+        <meta name="description" content="Backend developer portfolio" />
         <meta property="robots" content="all" />
         <meta
           name="keywords"
@@ -36,8 +33,7 @@ const index = () => {
         <meta property="og:title" content="Andres Gazui - Backend developer" />
         <meta
           property="og:description"
-          content=" Hello there!, my name is Andres Gazui and I am a backend developer with many years of experience and I'm passionate about
-          technology and constant learning"
+          content=" I am a Backend developer and passionate by technology with many years of experience building and maintaining applications"
         />
         <link rel="canonical" href="https://andresgazui.com" />
       </Head>
