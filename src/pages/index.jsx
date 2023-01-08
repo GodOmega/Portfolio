@@ -96,7 +96,7 @@ const index = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discover more projects
+              Discover my github
             </a>
           </div>
         </section>
