@@ -15,7 +15,7 @@
     max-width: 428px;
     height: 36px;
     font-size: 12px;
-    border: 1px solid var(--active_fonts);
+    border: 1.5px solid var(--active_fonts);
     border-radius: 16px;
     padding: 0 2rem;
     cursor: pointer;
