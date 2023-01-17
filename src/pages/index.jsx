@@ -79,6 +79,7 @@ const index = () => {
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/classicar_is3pss_u0qyb8.webp" />
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947768/portfolio/disney_k773tm_wzclmn.webp" />
             <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/ceaca_rgwyxi_ugguhi.webp" />
+            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1673918103/portfolio/omegaMusic_st9hmj.webp" />
           </SliderContainer>
 
           {/* <p className={styles.portfolio__subtitle}>
