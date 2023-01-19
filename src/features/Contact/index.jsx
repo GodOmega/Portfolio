@@ -32,7 +32,7 @@ const Contact = () => {
       </Link>
 
       <Link
-        href="https://github.com/GodOmega"
+        href="https://github.com/gazuiandres"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.contact__item}
