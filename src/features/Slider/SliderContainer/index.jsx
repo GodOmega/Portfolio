@@ -8,7 +8,7 @@ const SliderContainer = ({ children }) => {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 500,
+    speed: 900,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false
