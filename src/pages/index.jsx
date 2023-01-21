@@ -75,17 +75,28 @@ const index = () => {
         <section name="portfolio" className={styles.portfolio__section}>
           <h2 className={styles.home__title}>Portfolio</h2>
           <SliderContainer>
-            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/colfax_kjerjg_ybd1jl.webp" />
-            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/classicar_is3pss_u0qyb8.webp" />
-            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947768/portfolio/disney_k773tm_wzclmn.webp" />
-            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/ceaca_rgwyxi_ugguhi.webp" />
-            <SliderItem image="https://res.cloudinary.com/dqd4krsof/image/upload/v1673918103/portfolio/omegaMusic_st9hmj.webp" />
+            <SliderItem
+              description="Warehouse store"
+              image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/colfax_kjerjg_ybd1jl.webp"
+            />
+            <SliderItem
+              description="Cars marketplace"
+              image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/classicar_is3pss_u0qyb8.webp"
+            />
+            <SliderItem
+              description="Clone of disney plus"
+              image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947768/portfolio/disney_k773tm_wzclmn.webp"
+            />
+            <SliderItem
+              description="Application to watch videos and chat with friends in real time"
+              image="https://res.cloudinary.com/dqd4krsof/image/upload/v1674266307/portfolio/realtimeVideo_sz5ii1.webp"
+            />
+            <SliderItem
+              description="Music Application"
+              image="https://res.cloudinary.com/dqd4krsof/image/upload/v1673918103/portfolio/omegaMusic_st9hmj.webp"
+            />
           </SliderContainer>
 
-          {/* <p className={styles.portfolio__subtitle}>
-            Discover more of my projects, which are based on different ways of applying a solution to a
-            problem 
-          </p> */}
           <div className={styles.ctaContainer}>
             <a
               className={styles.portfolio__button_cta}
