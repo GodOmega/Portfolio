@@ -100,7 +100,7 @@ const index = () => {
           <div className={styles.ctaContainer}>
             <a
               className={styles.portfolio__button_cta}
-              href="https://github.com/GodOmega"
+              href="https://github.com/gazuiandres"
               target="_blank"
               rel="noopener noreferrer"
             >
