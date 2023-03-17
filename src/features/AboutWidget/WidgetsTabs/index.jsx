@@ -16,7 +16,7 @@ const WidgetsTabs = ({ changeView }) => {
           Skills
         </label>
         <label onClick={changeView} data-option="contact" htmlFor="tab-3">
-          Contact
+          Links
         </label>
       </div>
       <div className={styles.underline}></div>
