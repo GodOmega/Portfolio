@@ -21,7 +21,7 @@ const SkillsWidget = () => {
         <h3 className={styles.skills__container_title}>Hard Skills</h3>
         <ul>
           {hardSkills.map(({ iconUrl, name }, index) => (
-            <li key={index}>
+            <li key={name}>
               <picture>
                 <Image
                   src={iconUrl}
@@ -39,7 +39,7 @@ const SkillsWidget = () => {
         <h3 className={styles.skills__container_title}>Soft Skills</h3>
         <ul>
           {softSkills.map(({ iconUrl, name }, index) => (
-            <li key={index}>
+            <li key={name}>
               <picture>
                 <Image
                   src={iconUrl}

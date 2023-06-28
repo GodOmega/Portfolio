@@ -17,8 +17,8 @@ const skills = {
             name: 'MySQL'
         },
         {
-            iconUrl: '/icons/js.svg',
-            name: 'Javascript'
+            iconUrl: '/icons/typescript.svg',
+            name: 'Typescript'
         },
         {
             iconUrl: '/icons/jest.svg',

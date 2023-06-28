@@ -83,12 +83,12 @@ const index = () => {
               description="Cars marketplace"
               image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947767/portfolio/classicar_is3pss_u0qyb8.webp"
             />
-            <SliderItem
+            {/* <SliderItem
               description="Clone of disney plus"
               image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947768/portfolio/disney_k773tm_wzclmn.webp"
-            />
+            /> */}
             <SliderItem
-              description="Application to watch videos and chat with friends in real time"
+              description="Real time application to watch chat and watch videos with friends"
               image="https://res.cloudinary.com/dqd4krsof/image/upload/v1674266307/portfolio/realtimeVideo_sz5ii1.webp"
             />
             <SliderItem
