@@ -22,18 +22,18 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Andres Gazui | Backend Developer</title>
+        <title>Andres Gazui | Full Stack Developer</title>
         <meta property="author" content="Andres Gazui" />
         <meta name="description" content="Backend developer portfolio" />
         <meta property="robots" content="all" />
         <meta
           name="keywords"
-          content="backend, developer, nodejs, javascript"
+          content="backend, full stack, frontend, web developer, nodejs, javascript"
         />
-        <meta property="og:title" content="Andres Gazui - Backend developer" />
+        <meta property="og:title" content="Andres Gazui - Web developer" />
         <meta
           property="og:description"
-          content=" I am a Backend developer and passionate by technology with many years of experience building and maintaining applications"
+          content=" I am a Full stack developer and passionate by technology with many years of experience building and maintaining applications"
         />
         <link rel="canonical" href="https://andresgazui.com" />
       </Head>
@@ -45,8 +45,7 @@ const index = () => {
               <span>Hello</span> i'm Andres
             </h1>
             <p className={styles.header_subtitle}>
-              Full stack developer with specialized experience with
-              Javascript and Node.js applications.
+              Full stack developer with specialized experience in web development
             </p>
             <Button>
               <Link to="about" smooth={true} duration={500}>
@@ -88,7 +87,7 @@ const index = () => {
               image="https://res.cloudinary.com/dqd4krsof/image/upload/v1672947768/portfolio/disney_k773tm_wzclmn.webp"
             /> */}
             <SliderItem
-              description="Real time application to watch chat and watch videos with friends"
+              description="Real time application to chat and watch videos with friends"
               image="https://res.cloudinary.com/dqd4krsof/image/upload/v1674266307/portfolio/realtimeVideo_sz5ii1.webp"
             />
             <SliderItem
