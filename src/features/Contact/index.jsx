@@ -16,10 +16,10 @@ const Contact = () => {
       className={styles.contact__container}
     >
       {/* SOON */}
-      {/* <div className={styles.contact__item}>
+      <div className={styles.contact__item}>
         <img src="/icons/email.svg" alt="Email Icon" />
-        <p></p>
-      </div> */}
+        <p>gazuiandrescontact@gmail.com</p>
+      </div>
 
       <Link
         href="https://www.linkedin.com/in/gazuiandres/"
