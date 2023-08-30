@@ -45,7 +45,7 @@ const index = () => {
               <span>Hello</span> i'm Andres
             </h1>
             <p className={styles.header_subtitle}>
-              Developer specialized in web development
+              Web developer, pasionate about technology and coding 🖥️
             </p>
             <Button>
               <Link to="about" smooth={true} duration={500}>
