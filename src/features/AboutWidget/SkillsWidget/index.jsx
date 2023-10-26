@@ -18,7 +18,7 @@ const SkillsWidget = () => {
       className={styles.skills__section}
     >
       <div className={styles.skills__container}>
-        <h3 className={styles.skills__container_title}>Hard Skills</h3>
+        <h3 className={styles.skills__container_title}>Main Skills</h3>
         <ul>
           {hardSkills.map(({ iconUrl, name }, index) => (
             <li key={name}>

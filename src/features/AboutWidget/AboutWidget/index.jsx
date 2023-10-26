@@ -16,9 +16,9 @@ const AboutWidget = () => {
     >
       <img src="/images/about_image.svg" alt="About Image" />
       <p>
-        Hello there!, my name is Andres Gazui and I am passionate about
+        Hello there!, my name is Andres Gazui and I'm passionate about
         technology and solutions that have a positive impact.
-        I am a young man and having connected with technology
+        I'm a young man and having connected with technology
         inspires me to always strive for excellence and to do more and more
         ambitious things. I currently have more than 3 years of experience in
         Web development and one of my biggest goals is to participate with

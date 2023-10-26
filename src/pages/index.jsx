@@ -30,10 +30,13 @@ const index = () => {
           name="keywords"
           content="backend, full stack, frontend, web developer, nodejs, javascript"
         />
-        <meta property="og:title" content="Andres Gazui - Web developer" />
+        <meta
+          property="og:title"
+          content="Andres Gazui - Full stack developer"
+        />
         <meta
           property="og:description"
-          content=" I am a Full stack developer and passionate by technology with many years of experience building and maintaining applications"
+          content=" I am a Full Stack Developer passionate by technology with many years of experience building and maintaining applications"
         />
         <link rel="canonical" href="https://andresgazui.com" />
       </Head>
@@ -45,7 +48,8 @@ const index = () => {
               <span>Hello</span> i'm Andres
             </h1>
             <p className={styles.header_subtitle}>
-              Web developer, pasionate about technology and coding 🖥️
+              Frontend & Backend developer, technology and
+              coding 🖥️
             </p>
             <Button>
               <Link to="about" smooth={true} duration={500}>
