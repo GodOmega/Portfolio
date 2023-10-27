@@ -24,11 +24,11 @@ const index = () => {
       <Head>
         <title>Andres Gazui | Web Developer</title>
         <meta property="author" content="Andres Gazui" />
-        <meta name="description" content="Backend developer portfolio" />
+        <meta name="description" content="Web developer portfolio" />
         <meta property="robots" content="all" />
         <meta
           name="keywords"
-          content="backend, full stack, frontend, web developer, nodejs, javascript"
+          content="backend, full stack, frontend, web developer, node.js, javascript, react, typescript"
         />
         <meta
           property="og:title"
@@ -48,8 +48,7 @@ const index = () => {
               <span>Hello</span> i'm Andres
             </h1>
             <p className={styles.header_subtitle}>
-              Frontend & Backend developer, technology and
-              coding 🖥️
+              Frontend & Backend developer, application builder 🖥️
             </p>
             <Button>
               <Link to="about" smooth={true} duration={500}>

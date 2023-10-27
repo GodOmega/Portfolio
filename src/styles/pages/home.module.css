@@ -125,6 +125,7 @@
 
     .header_subtitle {
         font-size: 22px;
+        text-align: center;
     }
 
     .portfolio__section > div {
